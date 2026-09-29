@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+
+/* Main application layout */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #14141e;
+  color: #e0e0eb;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main-title {
+  font-size: 2rem;
+  color: #ff2e63;
+}
+
+#main-title:hover {
+  text-decoration: underline;
+  transform: scale(1.05);
+}
